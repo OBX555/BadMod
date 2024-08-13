@@ -1,14 +1,15 @@
 modLoader="javafml"
 loaderVersion="[2,)"
-license="Not specified"
+license="All Rights Reserved"
 
 [[mods]]
 modId="bad_mod"
 version="1.0.0"
 displayName="Bad Mod"
 displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="10, MCreator"
+credits="OBX555, tyuXX"
+authors="OBX555"
+description="cat"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

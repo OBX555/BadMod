@@ -1,11 +1,31 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Asphalt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/block/asphalt.json",
+          "src/main/resources/assets/bad_mod/blockstates/asphalt.json",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/asphalt.json",
+          "src/main/java/net/mcreator/badmod/block/AsphaltBlock.java",
+          "src/main/resources/assets/bad_mod/models/item/asphalt.json"
+        ]
+      },
+      "path": "~/Blocks"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.bad_mod.asphalt": "Asphalt"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -20,15 +40,17 @@
     "modid": "bad_mod",
     "modName": "Bad Mod",
     "version": "1.0.0",
-    "author": "10, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "description": "cat",
+    "author": "OBX555",
+    "websiteURL": "scamwebsite.com",
+    "license": "All Rights Reserved",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.20.6",
+    "credits": "OBX555, tyuXX",
     "modElementsPackage": "net.mcreator.badmod"
   },
   "mcreatorVersion": 202400232117
