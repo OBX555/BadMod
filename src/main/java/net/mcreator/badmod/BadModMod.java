@@ -18,7 +18,10 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.badmod.init.BadModModTabs;
 import net.mcreator.badmod.init.BadModModItems;
+import net.mcreator.badmod.init.BadModModFluids;
+import net.mcreator.badmod.init.BadModModFluidTypes;
 import net.mcreator.badmod.init.BadModModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -43,6 +46,10 @@ public class BadModMod {
 
 		BadModModItems.REGISTRY.register(modEventBus);
 
+		BadModModTabs.REGISTRY.register(modEventBus);
+
+		BadModModFluids.REGISTRY.register(modEventBus);
+		BadModModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "bad_mod:emptydrill"
+    },
+    "b": {
+      "item": "bad_mod:drill_mk_1_top"
+    }
+  },
+  "result": {
+    "id": "bad_mod:drill_mk_1",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "drillmk1",
+    "customModelName": "drill_mk1:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Drill Mk.1",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BadMod"
+      }
+    ],
+    "efficiency": 11.0,
+    "attackSpeed": 2.0,
+    "enchantability": 4,
+    "damageVsEntity": 4.0,
+    "usageCount": 300,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

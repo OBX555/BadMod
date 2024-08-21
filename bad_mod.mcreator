@@ -16,15 +16,392 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "Aggregate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aggregate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/blockstates/aggregate.json",
+          "src/main/resources/assets/bad_mod/models/item/aggregate.json",
+          "src/main/java/net/mcreator/badmod/block/AggregateBlock.java",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/aggregate.json",
+          "src/main/resources/assets/bad_mod/models/block/aggregate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "OilySand",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_sand",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/neoforge/biome_modifier/oily_sand_biome_modifier.json",
+          "src/main/resources/assets/bad_mod/models/block/oily_sand.json",
+          "src/main/resources/assets/bad_mod/models/item/oily_sand.json",
+          "src/main/resources/data/bad_mod/worldgen/placed_feature/oily_sand.json",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/oily_sand.json",
+          "src/main/resources/data/bad_mod/worldgen/configured_feature/oily_sand.json",
+          "src/main/resources/assets/bad_mod/blockstates/oily_sand.json",
+          "src/main/java/net/mcreator/badmod/block/OilySandBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BadMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bad_mod",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Inventory tabs"
+    },
+    {
+      "name": "AggregateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aggregate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/aggregate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AsphaltCement",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_cement",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/blockstates/asphalt_cement.json",
+          "src/main/java/net/mcreator/badmod/fluid/AsphaltCementFluid.java",
+          "src/main/resources/assets/bad_mod/models/item/asphalt_cement_bucket.json",
+          "src/main/java/net/mcreator/badmod/item/AsphaltCementItem.java",
+          "src/main/java/net/mcreator/badmod/fluid/types/AsphaltCementFluidType.java",
+          "src/main/resources/assets/bad_mod/models/block/asphalt_cement.json",
+          "src/main/java/net/mcreator/badmod/block/AsphaltCementBlock.java"
+        ]
+      },
+      "path": "~/Liquids"
+    },
+    {
+      "name": "DrillMk1",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_mk_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/item/DrillMk1Item.java",
+          "src/main/resources/assets/bad_mod/models/item/drill_mk_1.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "OnItemBroken",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_item_broken",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/procedures/OnItemBrokenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Events"
+    },
+    {
+      "name": "Emptydrill",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptydrill",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/item/emptydrill.json",
+          "src/main/java/net/mcreator/badmod/item/EmptydrillItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DrillMk1Top",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drill_mk_1_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/item/drill_mk_1_top.json",
+          "src/main/java/net/mcreator/badmod/item/DrillMk1TopItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Drillmk1recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillmk_1recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/drillmk_1recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Drillmk1toprecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillmk_1toprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/drillmk_1toprecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Drillcablered",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillcablered",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/item/drillcablered.json",
+          "src/main/java/net/mcreator/badmod/item/DrillcableredItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Drillcableblue",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillcableblue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/item/drillcableblue.json",
+          "src/main/java/net/mcreator/badmod/item/DrillcableblueItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Drillcablegreen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillcablegreen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/item/DrillcablegreenItem.java",
+          "src/main/resources/assets/bad_mod/models/item/drillcablegreen.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Emptydrillrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emptydrillrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/emptydrillrecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Drillredcablerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillredcablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/drillredcablerecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Drillbluecablerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillbluecablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/drillbluecablerecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Drillgreencablerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drillgreencablerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/drillgreencablerecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "OilySandBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oily_sand_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/procedures/OilySandBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "CruideOil",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cruide_oil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/fluid/CruideOilFluid.java",
+          "src/main/java/net/mcreator/badmod/block/CruideOilBlock.java",
+          "src/main/resources/assets/bad_mod/blockstates/cruide_oil.json",
+          "src/main/resources/assets/bad_mod/models/item/cruide_oil_bucket.json",
+          "src/main/java/net/mcreator/badmod/item/CruideOilItem.java",
+          "src/main/resources/assets/bad_mod/models/block/cruide_oil.json",
+          "src/main/java/net/mcreator/badmod/fluid/types/CruideOilFluidType.java"
+        ]
+      },
+      "path": "~/Liquids"
+    },
+    {
+      "name": "Petroleum",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petroleum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/block/PetroleumBlock.java",
+          "src/main/java/net/mcreator/badmod/item/PetroleumItem.java",
+          "src/main/resources/assets/bad_mod/blockstates/petroleum.json",
+          "src/main/resources/assets/bad_mod/models/item/petroleum_bucket.json",
+          "src/main/resources/assets/bad_mod/models/block/petroleum.json",
+          "src/main/java/net/mcreator/badmod/fluid/types/PetroleumFluidType.java",
+          "src/main/java/net/mcreator/badmod/fluid/PetroleumFluid.java"
+        ]
+      },
+      "path": "~/Liquids"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Petroleum",
+      "~CUSTOM:CruideOil",
+      "~CUSTOM:AsphaltCement"
+    ],
+    "ITEMS:mod:drills": [
+      "CUSTOM:DrillMk1"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:OilySand",
+      "~CUSTOM:Aggregate",
+      "~CUSTOM:Asphalt"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Aggregate"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DrillMk1"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.bad_mod.asphalt": "Asphalt"
+      "item.bad_mod.drill_mk_1_top": "Drill Mk.1 Top",
+      "item.bad_mod.emptydrill": "Empty Drill",
+      "block.bad_mod.cruide_oil": "Cruide Oil",
+      "fluid.bad_mod.asphalt_cement": "Asphalt Cement",
+      "item.bad_mod.drillcablegreen": "Green Drill Cable",
+      "item.bad_mod.asphalt_cement_bucket": "Asphalt Cement Bucket",
+      "block.bad_mod.oily_sand": "Oily Sand",
+      "fluid.bad_mod.cruide_oil": "Cruide Oil",
+      "block.bad_mod.aggregate": "Aggregate",
+      "block.bad_mod.asphalt": "Asphalt",
+      "block.bad_mod.petroleum": "Petroleum",
+      "item_group.bad_mod.bad_mod": "Bad Mod",
+      "item.bad_mod.drillcablered": "Red Drill Cable",
+      "item.bad_mod.drill_mk_1": "Drill Mk.1",
+      "item.bad_mod.fsdfdkosgjjjdfjkghdkghdlgkjdhgdkghjdjhgdjkshgkjdhsgsdkjghdsghjdsfkgjhdsfgkjhdsfkghdfsgkjfdhsgkdfshgkjdfhgdksjghdskgjhdsjgkhdsghsdkhjgdskgjhdsgkjdfhsgdkjfghdfksgjhdjfkghjkghdfsjkfgjhdsgkjhdfjkgdfhgkdfhgkdfjhgdkjghdkgdfkhjgkdfjhgdksgjhdfsjgkhdskghjdshgdjgfdfhgdfsjhgdsfgkjhdfksghdfjghdfshgdfkjghdfkjghdfsjgkhsdkgjhdfkjghdfghdskgjhdkghdskghdskjghdfjkghdghdskghskghdsfgkdghkfghfdkjghdfgkfhjgsafhjasdgfjshdgjfsdfsdfs": "Fsdfdkosgjjjdfjkghdkghdlgkjdhgdkghjdjhgdjkshgkjdhsgsdkjghdsghjdsfkgjhdsfgkjhdsfkghdfsgkjfdhsgkdfshgkjdfhgdksjghdskgjhdsjgkhdsghsdkhjgdskgjhdsgkjdfhsgdkjfghdfksgjhdjfkghjkghdfsjkfgjhdsgkjhdfjkgdfhgkdfhgkdfjhgdkjghdkgdfkhjgkdfjhgdksgjhdfsjgkhdskghjdshgdjgfdfhgdfsjhgdsfgkjhdfksghdfjghdfshgdfkjghdfkjghdfsjgkhsdkgjhdfkjghdfghdskgjhdkghdskghdskjghdfjkghdghdskghskghdsfgkdghkfghfdkjghdfgkfhjgsafhjasdgfjshdgjfsdfsdfs",
+      "fluid.bad_mod.petroleum": "Petroleum",
+      "item.bad_mod.drillcableblue": "Blue Drill Cable",
+      "block.bad_mod.asphalt_cement": "Asphalt Cement",
+      "item.bad_mod.cruide_oil_bucket": "Cruide Oil Bucket",
+      "item.bad_mod.petroleum_bucket": "Petroleum Bucket"
     }
   },
   "foldersRoot": {
@@ -33,16 +410,52 @@
       {
         "name": "Blocks",
         "children": []
+      },
+      {
+        "name": "Liquids",
+        "children": []
+      },
+      {
+        "name": "Inventory tabs",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Machines",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Events",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "bad_mod",
     "modName": "Bad Mod",
-    "version": "1.0.0",
-    "description": "cat",
+    "version": "0.0.0",
+    "description": "Its a bad mod or is it? Vsauce theme plays",
     "author": "OBX555",
-    "websiteURL": "scamwebsite.com",
+    "websiteURL": "https://github.com/OBX555/BadMod.git",
     "license": "All Rights Reserved",
     "serverSideOnly": false,
     "requiredMods": [],

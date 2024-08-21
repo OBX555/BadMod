@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bad_mod:block/aggregate",
+    "particle": "bad_mod:block/aggregate"
+  },
+  "render_type": "solid"
+}

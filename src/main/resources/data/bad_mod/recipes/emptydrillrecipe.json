@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcd",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:copper_ingot"
+    },
+    "b": {
+      "item": "bad_mod:drillcablered"
+    },
+    "c": {
+      "item": "bad_mod:drillcableblue"
+    },
+    "d": {
+      "item": "bad_mod:drillcablegreen"
+    }
+  },
+  "result": {
+    "id": "bad_mod:emptydrill",
+    "count": 1
+  }
+}

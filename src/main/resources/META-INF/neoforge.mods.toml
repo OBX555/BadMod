@@ -4,12 +4,12 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="bad_mod"
-version="1.0.0"
+version="0.0.0"
 displayName="Bad Mod"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/OBX555/BadMod.git"
 credits="OBX555, tyuXX"
 authors="OBX555"
-description="cat"
+description="Its a bad mod or is it? Vsauce theme plays"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

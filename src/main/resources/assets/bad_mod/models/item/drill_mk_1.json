@@ -1,0 +1,7 @@
+{
+  "parent": "bad_mod:custom/drill_mk1",
+  "textures": {
+    "0": "bad_mod:block/drillmk1",
+    "particle": "bad_mod:item/drillmk1"
+  }
+}

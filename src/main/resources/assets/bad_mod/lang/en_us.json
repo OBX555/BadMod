@@ -1,3 +1,22 @@
 {
-  "block.bad_mod.asphalt": "Asphalt"
+  "item.bad_mod.drill_mk_1_top": "Drill Mk.1 Top",
+  "item.bad_mod.emptydrill": "Empty Drill",
+  "block.bad_mod.cruide_oil": "Cruide Oil",
+  "fluid.bad_mod.asphalt_cement": "Asphalt Cement",
+  "item.bad_mod.drillcablegreen": "Green Drill Cable",
+  "item.bad_mod.asphalt_cement_bucket": "Asphalt Cement Bucket",
+  "block.bad_mod.oily_sand": "Oily Sand",
+  "fluid.bad_mod.cruide_oil": "Cruide Oil",
+  "block.bad_mod.aggregate": "Aggregate",
+  "block.bad_mod.asphalt": "Asphalt",
+  "block.bad_mod.petroleum": "Petroleum",
+  "item_group.bad_mod.bad_mod": "Bad Mod",
+  "item.bad_mod.drillcablered": "Red Drill Cable",
+  "item.bad_mod.drill_mk_1": "Drill Mk.1",
+  "item.bad_mod.fsdfdkosgjjjdfjkghdkghdlgkjdhgdkghjdjhgdjkshgkjdhsgsdkjghdsghjdsfkgjhdsfgkjhdsfkghdfsgkjfdhsgkdfshgkjdfhgdksjghdskgjhdsjgkhdsghsdkhjgdskgjhdsgkjdfhsgdkjfghdfksgjhdjfkghjkghdfsjkfgjhdsgkjhdfjkgdfhgkdfhgkdfjhgdkjghdkgdfkhjgkdfjhgdksgjhdfsjgkhdskghjdshgdjgfdfhgdfsjhgdsfgkjhdfksghdfjghdfshgdfkjghdfkjghdfsjgkhsdkgjhdfkjghdfghdskgjhdkghdskghdskjghdfjkghdghdskghskghdsfgkdghkfghfdkjghdfgkfhjgsafhjasdgfjshdgjfsdfsdfs": "Fsdfdkosgjjjdfjkghdkghdlgkjdhgdkghjdjhgdjkshgkjdhsgsdkjghdsghjdsfkgjhdsfgkjhdsfkghdfsgkjfdhsgkdfshgkjdfhgdksjghdskgjhdsjgkhdsghsdkhjgdskgjhdsgkjdfhsgdkjfghdfksgjhdjfkghjkghdfsjkfgjhdsgkjhdfjkgdfhgkdfhgkdfjhgdkjghdkgdfkhjgkdfjhgdksgjhdfsjgkhdskghjdshgdjgfdfhgdfsjhgdsfgkjhdfksghdfjghdfshgdfkjghdfkjghdfsjgkhsdkgjhdfkjghdfghdskgjhdkghdskghdskjghdfjkghdghdskghskghdsfgkdghkfghfdkjghdfgkfhjgsafhjasdgfjshdgjfsdfsdfs",
+  "fluid.bad_mod.petroleum": "Petroleum",
+  "item.bad_mod.drillcableblue": "Blue Drill Cable",
+  "block.bad_mod.asphalt_cement": "Asphalt Cement",
+  "item.bad_mod.cruide_oil_bucket": "Cruide Oil Bucket",
+  "item.bad_mod.petroleum_bucket": "Petroleum Bucket"
 }

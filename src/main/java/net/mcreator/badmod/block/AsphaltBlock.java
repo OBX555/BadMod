@@ -11,7 +11,7 @@ import net.minecraft.core.BlockPos;
 
 public class AsphaltBlock extends Block {
 	public AsphaltBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.BASALT).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.BASALT).strength(3f, 10f));
 	}
 
 	@Override

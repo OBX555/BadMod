@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "bad_mod:petroleum",
+    "bad_mod:cruide_oil",
+    "bad_mod:asphalt_cement"
+  ]
+}

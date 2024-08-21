@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:sand"
+    },
+    "b": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "id": "bad_mod:aggregate",
+    "count": 1
+  }
+}
