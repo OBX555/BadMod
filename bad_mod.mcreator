@@ -354,12 +354,128 @@
         ]
       },
       "path": "~/Liquids"
+    },
+    {
+      "name": "ServerConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/configuration/ServerConfigConfiguration.java"
+        ]
+      },
+      "path": "~/Config"
+    },
+    {
+      "name": "AsphaltRecipepart2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_recipepart_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/asphalt_recipepart_2.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "HotAggregate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_aggregate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/blockstates/hot_aggregate.json",
+          "src/main/java/net/mcreator/badmod/block/HotAggregateBlock.java",
+          "src/main/resources/assets/bad_mod/models/block/hot_aggregate.json",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/hot_aggregate.json",
+          "src/main/resources/assets/bad_mod/models/item/hot_aggregate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Hotagregaterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotagregaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/hotagregaterecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BituminousBinder",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bituminous_binder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/item/bituminous_binder_bucket.json",
+          "src/main/java/net/mcreator/badmod/fluid/BituminousBinderFluid.java",
+          "src/main/java/net/mcreator/badmod/block/BituminousBinderBlock.java",
+          "src/main/resources/assets/bad_mod/models/block/bituminous_binder.json",
+          "src/main/java/net/mcreator/badmod/item/BituminousBinderItem.java",
+          "src/main/resources/assets/bad_mod/blockstates/bituminous_binder.json",
+          "src/main/java/net/mcreator/badmod/fluid/types/BituminousBinderFluidType.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClientConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "client_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/configuration/ClientConfigConfiguration.java"
+        ]
+      },
+      "path": "~/Config"
+    },
+    {
+      "name": "AsphaltRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/asphalt_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LeftoverAmalgamation",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leftover_amalgamation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/item/leftover_amalgamation.json",
+          "src/main/java/net/mcreator/badmod/item/LeftoverAmalgamationItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:BituminousBinder",
       "~CUSTOM:Petroleum",
       "~CUSTOM:CruideOil",
       "~CUSTOM:AsphaltCement"
@@ -408,23 +524,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Blocks",
-        "children": []
-      },
-      {
-        "name": "Liquids",
-        "children": []
-      },
-      {
-        "name": "Inventory tabs",
-        "children": []
-      },
-      {
-        "name": "Weapons",
-        "children": []
-      },
-      {
-        "name": "Recipes",
+        "name": "Items",
         "children": []
       },
       {
@@ -432,19 +532,27 @@
         "children": []
       },
       {
-        "name": "Machines",
-        "children": []
-      },
-      {
         "name": "Procedures",
         "children": []
       },
       {
-        "name": "Events",
+        "name": "Recipes",
         "children": []
       },
       {
-        "name": "Items",
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Inventory tabs",
+        "children": []
+      },
+      {
+        "name": "Config",
+        "children": []
+      },
+      {
+        "name": "Events",
         "children": []
       }
     ]

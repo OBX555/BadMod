@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HotAggregate"
+      },
+      {
+        "value": "CUSTOM:HotAggregate"
+      },
+      {
+        "value": "CUSTOM:HotAggregate"
+      },
+      {
+        "value": "CUSTOM:HotAggregate"
+      },
+      {
+        "value": "CUSTOM:BituminousBinder.bucket"
+      },
+      {
+        "value": "CUSTOM:HotAggregate"
+      },
+      {
+        "value": "CUSTOM:HotAggregate"
+      },
+      {
+        "value": "CUSTOM:HotAggregate"
+      },
+      {
+        "value": "CUSTOM:HotAggregate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AsphaltCement.bucket"
+    },
+    "name": "asphalt_recipe",
+    "namespace": "mod"
+  }
+}

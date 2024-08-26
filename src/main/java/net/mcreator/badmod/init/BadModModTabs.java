@@ -30,6 +30,8 @@ public class BadModModTabs {
 				tabData.accept(BadModModItems.DRILLCABLEGREEN.get());
 				tabData.accept(BadModModItems.CRUIDE_OIL_BUCKET.get());
 				tabData.accept(BadModModItems.PETROLEUM_BUCKET.get());
+				tabData.accept(BadModModBlocks.HOT_AGGREGATE.get().asItem());
+				tabData.accept(BadModModItems.BITUMINOUS_BINDER_BUCKET.get());
 			})
 
 					.build());

@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.badmod.item.PetroleumItem;
+import net.mcreator.badmod.item.LeftoverAmalgamationItem;
 import net.mcreator.badmod.item.EmptydrillItem;
 import net.mcreator.badmod.item.DrillcableredItem;
 import net.mcreator.badmod.item.DrillcablegreenItem;
@@ -19,6 +20,7 @@ import net.mcreator.badmod.item.DrillcableblueItem;
 import net.mcreator.badmod.item.DrillMk1TopItem;
 import net.mcreator.badmod.item.DrillMk1Item;
 import net.mcreator.badmod.item.CruideOilItem;
+import net.mcreator.badmod.item.BituminousBinderItem;
 import net.mcreator.badmod.item.AsphaltCementItem;
 import net.mcreator.badmod.BadModMod;
 
@@ -36,6 +38,9 @@ public class BadModModItems {
 	public static final DeferredHolder<Item, Item> DRILLCABLEGREEN = REGISTRY.register("drillcablegreen", DrillcablegreenItem::new);
 	public static final DeferredHolder<Item, Item> CRUIDE_OIL_BUCKET = REGISTRY.register("cruide_oil_bucket", CruideOilItem::new);
 	public static final DeferredHolder<Item, Item> PETROLEUM_BUCKET = REGISTRY.register("petroleum_bucket", PetroleumItem::new);
+	public static final DeferredHolder<Item, Item> HOT_AGGREGATE = block(BadModModBlocks.HOT_AGGREGATE);
+	public static final DeferredHolder<Item, Item> BITUMINOUS_BINDER_BUCKET = REGISTRY.register("bituminous_binder_bucket", BituminousBinderItem::new);
+	public static final DeferredHolder<Item, Item> LEFTOVER_AMALGAMATION = REGISTRY.register("leftover_amalgamation", LeftoverAmalgamationItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items
