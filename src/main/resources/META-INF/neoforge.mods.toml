@@ -29,6 +29,18 @@ description="Its a bad mod or is it? Vsauce theme plays"
     side="BOTH"
 
 
+[[dependencies.bad_mod]]
+    modId="curios_api"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.bad_mod]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

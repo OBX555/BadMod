@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "bad_mod:aggregate"
+  },
+  "result": {
+    "id": "bad_mod:hot_aggregate"
+  }
+}

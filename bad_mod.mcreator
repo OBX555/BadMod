@@ -8,11 +8,11 @@
       "registry_name": "asphalt",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bad_mod/models/block/asphalt.json",
+          "src/main/resources/assets/bad_mod/models/item/asphalt.json",
           "src/main/resources/assets/bad_mod/blockstates/asphalt.json",
-          "src/main/resources/data/bad_mod/loot_tables/blocks/asphalt.json",
           "src/main/java/net/mcreator/badmod/block/AsphaltBlock.java",
-          "src/main/resources/assets/bad_mod/models/item/asphalt.json"
+          "src/main/resources/assets/bad_mod/models/block/asphalt.json",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/asphalt.json"
         ]
       },
       "path": "~/Blocks"
@@ -25,11 +25,11 @@
       "registry_name": "aggregate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bad_mod/blockstates/aggregate.json",
-          "src/main/resources/assets/bad_mod/models/item/aggregate.json",
-          "src/main/java/net/mcreator/badmod/block/AggregateBlock.java",
           "src/main/resources/data/bad_mod/loot_tables/blocks/aggregate.json",
-          "src/main/resources/assets/bad_mod/models/block/aggregate.json"
+          "src/main/resources/assets/bad_mod/blockstates/aggregate.json",
+          "src/main/resources/assets/bad_mod/models/block/aggregate.json",
+          "src/main/java/net/mcreator/badmod/block/AggregateBlock.java",
+          "src/main/resources/assets/bad_mod/models/item/aggregate.json"
         ]
       },
       "path": "~/Blocks"
@@ -42,14 +42,14 @@
       "registry_name": "oily_sand",
       "metadata": {
         "files": [
-          "src/main/resources/data/bad_mod/neoforge/biome_modifier/oily_sand_biome_modifier.json",
-          "src/main/resources/assets/bad_mod/models/block/oily_sand.json",
-          "src/main/resources/assets/bad_mod/models/item/oily_sand.json",
-          "src/main/resources/data/bad_mod/worldgen/placed_feature/oily_sand.json",
-          "src/main/resources/data/bad_mod/loot_tables/blocks/oily_sand.json",
           "src/main/resources/data/bad_mod/worldgen/configured_feature/oily_sand.json",
-          "src/main/resources/assets/bad_mod/blockstates/oily_sand.json",
-          "src/main/java/net/mcreator/badmod/block/OilySandBlock.java"
+          "src/main/resources/assets/bad_mod/models/item/oily_sand.json",
+          "src/main/resources/data/bad_mod/neoforge/biome_modifier/oily_sand_biome_modifier.json",
+          "src/main/resources/data/bad_mod/worldgen/placed_feature/oily_sand.json",
+          "src/main/resources/assets/bad_mod/models/block/oily_sand.json",
+          "src/main/java/net/mcreator/badmod/block/OilySandBlock.java",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/oily_sand.json",
+          "src/main/resources/assets/bad_mod/blockstates/oily_sand.json"
         ]
       },
       "path": "~/Blocks"
@@ -86,16 +86,16 @@
       "registry_name": "asphalt_cement",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bad_mod/blockstates/asphalt_cement.json",
-          "src/main/java/net/mcreator/badmod/fluid/AsphaltCementFluid.java",
-          "src/main/resources/assets/bad_mod/models/item/asphalt_cement_bucket.json",
           "src/main/java/net/mcreator/badmod/item/AsphaltCementItem.java",
           "src/main/java/net/mcreator/badmod/fluid/types/AsphaltCementFluidType.java",
+          "src/main/resources/assets/bad_mod/blockstates/asphalt_cement.json",
+          "src/main/java/net/mcreator/badmod/block/AsphaltCementBlock.java",
           "src/main/resources/assets/bad_mod/models/block/asphalt_cement.json",
-          "src/main/java/net/mcreator/badmod/block/AsphaltCementBlock.java"
+          "src/main/java/net/mcreator/badmod/fluid/AsphaltCementFluid.java",
+          "src/main/resources/assets/bad_mod/models/item/asphalt_cement_bucket.json"
         ]
       },
-      "path": "~/Liquids"
+      "path": "~/Blocks"
     },
     {
       "name": "DrillMk1",
@@ -105,8 +105,8 @@
       "registry_name": "drill_mk_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/badmod/item/DrillMk1Item.java",
-          "src/main/resources/assets/bad_mod/models/item/drill_mk_1.json"
+          "src/main/resources/assets/bad_mod/models/item/drill_mk_1.json",
+          "src/main/java/net/mcreator/badmod/item/DrillMk1Item.java"
         ]
       },
       "path": "~/Tools"
@@ -325,16 +325,16 @@
       "registry_name": "cruide_oil",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/badmod/fluid/CruideOilFluid.java",
-          "src/main/java/net/mcreator/badmod/block/CruideOilBlock.java",
           "src/main/resources/assets/bad_mod/blockstates/cruide_oil.json",
-          "src/main/resources/assets/bad_mod/models/item/cruide_oil_bucket.json",
-          "src/main/java/net/mcreator/badmod/item/CruideOilItem.java",
           "src/main/resources/assets/bad_mod/models/block/cruide_oil.json",
-          "src/main/java/net/mcreator/badmod/fluid/types/CruideOilFluidType.java"
+          "src/main/java/net/mcreator/badmod/fluid/CruideOilFluid.java",
+          "src/main/java/net/mcreator/badmod/fluid/types/CruideOilFluidType.java",
+          "src/main/java/net/mcreator/badmod/block/CruideOilBlock.java",
+          "src/main/java/net/mcreator/badmod/item/CruideOilItem.java",
+          "src/main/resources/assets/bad_mod/models/item/cruide_oil_bucket.json"
         ]
       },
-      "path": "~/Liquids"
+      "path": "~/Blocks"
     },
     {
       "name": "Petroleum",
@@ -344,22 +344,138 @@
       "registry_name": "petroleum",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/badmod/block/PetroleumBlock.java",
           "src/main/java/net/mcreator/badmod/item/PetroleumItem.java",
-          "src/main/resources/assets/bad_mod/blockstates/petroleum.json",
-          "src/main/resources/assets/bad_mod/models/item/petroleum_bucket.json",
-          "src/main/resources/assets/bad_mod/models/block/petroleum.json",
           "src/main/java/net/mcreator/badmod/fluid/types/PetroleumFluidType.java",
-          "src/main/java/net/mcreator/badmod/fluid/PetroleumFluid.java"
+          "src/main/resources/assets/bad_mod/models/item/petroleum_bucket.json",
+          "src/main/java/net/mcreator/badmod/block/PetroleumBlock.java",
+          "src/main/resources/assets/bad_mod/blockstates/petroleum.json",
+          "src/main/java/net/mcreator/badmod/fluid/PetroleumFluid.java",
+          "src/main/resources/assets/bad_mod/models/block/petroleum.json"
         ]
       },
-      "path": "~/Liquids"
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ClientConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "client_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/configuration/ClientConfigConfiguration.java"
+        ]
+      },
+      "path": "~/Config"
+    },
+    {
+      "name": "ServerConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/configuration/ServerConfigConfiguration.java"
+        ]
+      },
+      "path": "~/Config"
+    },
+    {
+      "name": "LeftoverAmalgamation",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leftover_amalgamation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/models/item/leftover_amalgamation.json",
+          "src/main/java/net/mcreator/badmod/item/LeftoverAmalgamationItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BituminousBinder",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bituminous_binder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/fluid/BituminousBinderFluid.java",
+          "src/main/java/net/mcreator/badmod/block/BituminousBinderBlock.java",
+          "src/main/resources/assets/bad_mod/models/block/bituminous_binder.json",
+          "src/main/java/net/mcreator/badmod/fluid/types/BituminousBinderFluidType.java",
+          "src/main/java/net/mcreator/badmod/item/BituminousBinderItem.java",
+          "src/main/resources/assets/bad_mod/models/item/bituminous_binder_bucket.json",
+          "src/main/resources/assets/bad_mod/blockstates/bituminous_binder.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "HotAggregate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_aggregate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bad_mod/blockstates/hot_aggregate.json",
+          "src/main/resources/assets/bad_mod/models/item/hot_aggregate.json",
+          "src/main/java/net/mcreator/badmod/block/HotAggregateBlock.java",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/hot_aggregate.json",
+          "src/main/resources/assets/bad_mod/models/block/hot_aggregate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AsphaltRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/asphalt_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Hotagregaterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotagregaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/hotagregaterecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "AsphaltRecipepart2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "asphalt_recipepart_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bad_mod/recipes/asphalt_recipepart_2.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:BituminousBinder",
       "~CUSTOM:Petroleum",
       "~CUSTOM:CruideOil",
       "~CUSTOM:AsphaltCement"
@@ -384,24 +500,29 @@
     "en_us": {
       "item.bad_mod.drill_mk_1_top": "Drill Mk.1 Top",
       "item.bad_mod.emptydrill": "Empty Drill",
-      "block.bad_mod.cruide_oil": "Cruide Oil",
       "fluid.bad_mod.asphalt_cement": "Asphalt Cement",
-      "item.bad_mod.drillcablegreen": "Green Drill Cable",
-      "item.bad_mod.asphalt_cement_bucket": "Asphalt Cement Bucket",
-      "block.bad_mod.oily_sand": "Oily Sand",
-      "fluid.bad_mod.cruide_oil": "Cruide Oil",
-      "block.bad_mod.aggregate": "Aggregate",
+      "block.bad_mod.hot_aggregate": "Hot Aggregate",
+      "item.bad_mod.leftover_amalgamation": "Leftover Amalgamation",
+      "fluid.bad_mod.cruide_oil": "Crude Oil",
       "block.bad_mod.asphalt": "Asphalt",
-      "block.bad_mod.petroleum": "Petroleum",
-      "item_group.bad_mod.bad_mod": "Bad Mod",
       "item.bad_mod.drillcablered": "Red Drill Cable",
       "item.bad_mod.drill_mk_1": "Drill Mk.1",
       "item.bad_mod.fsdfdkosgjjjdfjkghdkghdlgkjdhgdkghjdjhgdjkshgkjdhsgsdkjghdsghjdsfkgjhdsfgkjhdsfkghdfsgkjfdhsgkdfshgkjdfhgdksjghdskgjhdsjgkhdsghsdkhjgdskgjhdsgkjdfhsgdkjfghdfksgjhdjfkghjkghdfsjkfgjhdsgkjhdfjkgdfhgkdfhgkdfjhgdkjghdkgdfkhjgkdfjhgdksgjhdfsjgkhdskghjdshgdjgfdfhgdfsjhgdsfgkjhdfksghdfjghdfshgdfkjghdfkjghdfsjgkhsdkgjhdfkjghdfghdskgjhdkghdskghdskjghdfjkghdghdskghskghdsfgkdghkfghfdkjghdfgkfhjgsafhjasdgfjshdgjfsdfsdfs": "Fsdfdkosgjjjdfjkghdkghdlgkjdhgdkghjdjhgdjkshgkjdhsgsdkjghdsghjdsfkgjhdsfgkjhdsfkghdfsgkjfdhsgkdfshgkjdfhgdksjghdskgjhdsjgkhdsghsdkhjgdskgjhdsgkjdfhsgdkjfghdfksgjhdjfkghjkghdfsjkfgjhdsgkjhdfjkgdfhgkdfhgkdfjhgdkjghdkgdfkhjgkdfjhgdksgjhdfsjgkhdskghjdshgdjgfdfhgdfsjhgdsfgkjhdfksghdfjghdfshgdfkjghdfkjghdfsjgkhsdkgjhdfkjghdfghdskgjhdkghdskghdskjghdfjkghdghdskghskghdsfgkdghkfghfdkjghdfgkfhjgsafhjasdgfjshdgjfsdfsdfs",
-      "fluid.bad_mod.petroleum": "Petroleum",
       "item.bad_mod.drillcableblue": "Blue Drill Cable",
-      "block.bad_mod.asphalt_cement": "Asphalt Cement",
-      "item.bad_mod.cruide_oil_bucket": "Cruide Oil Bucket",
-      "item.bad_mod.petroleum_bucket": "Petroleum Bucket"
+      "item.bad_mod.petroleum_bucket": "Petroleum Bucket",
+      "block.bad_mod.bituminous_binder": "Bituminous Binder",
+      "block.bad_mod.cruide_oil": "Crude Oil",
+      "item.bad_mod.bituminous_binder_bucket": "Bituminous Binder Bucket",
+      "item.bad_mod.drillcablegreen": "Green Drill Cable",
+      "item.bad_mod.asphalt_cement_bucket": "Asphalt Cement Bucket",
+      "fluid.bad_mod.bituminous_binder": "Bituminous Binder",
+      "block.bad_mod.oily_sand": "Oily Sand",
+      "block.bad_mod.aggregate": "Aggregate",
+      "block.bad_mod.petroleum": "Petroleum",
+      "item_group.bad_mod.bad_mod": "Bad Mod",
+      "fluid.bad_mod.petroleum": "Petroleum",
+      "item.bad_mod.cruide_oil_bucket": "Crude Oil Bucket",
+      "block.bad_mod.asphalt_cement": "Asphalt Cement"
     }
   },
   "foldersRoot": {
@@ -412,15 +533,7 @@
         "children": []
       },
       {
-        "name": "Liquids",
-        "children": []
-      },
-      {
         "name": "Inventory tabs",
-        "children": []
-      },
-      {
-        "name": "Weapons",
         "children": []
       },
       {
@@ -429,10 +542,6 @@
       },
       {
         "name": "Tools",
-        "children": []
-      },
-      {
-        "name": "Machines",
         "children": []
       },
       {
@@ -445,6 +554,10 @@
       },
       {
         "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Config",
         "children": []
       }
     ]
@@ -461,7 +574,10 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "jei"
+    ],
     "currentGenerator": "neoforge-1.20.6",
     "credits": "OBX555, tyuXX",
     "modElementsPackage": "net.mcreator.badmod"

@@ -19,6 +19,7 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.badmod.fluid.PetroleumFluid;
 import net.mcreator.badmod.fluid.CruideOilFluid;
+import net.mcreator.badmod.fluid.BituminousBinderFluid;
 import net.mcreator.badmod.fluid.AsphaltCementFluid;
 import net.mcreator.badmod.BadModMod;
 
@@ -30,6 +31,8 @@ public class BadModModFluids {
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_CRUIDE_OIL = REGISTRY.register("flowing_cruide_oil", () -> new CruideOilFluid.Flowing());
 	public static final DeferredHolder<Fluid, FlowingFluid> PETROLEUM = REGISTRY.register("petroleum", () -> new PetroleumFluid.Source());
 	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_PETROLEUM = REGISTRY.register("flowing_petroleum", () -> new PetroleumFluid.Flowing());
+	public static final DeferredHolder<Fluid, FlowingFluid> BITUMINOUS_BINDER = REGISTRY.register("bituminous_binder", () -> new BituminousBinderFluid.Source());
+	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_BITUMINOUS_BINDER = REGISTRY.register("flowing_bituminous_binder", () -> new BituminousBinderFluid.Flowing());
 
 	@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class FluidsClientSideHandler {
@@ -41,6 +44,8 @@ public class BadModModFluids {
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_CRUIDE_OIL.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(PETROLEUM.get(), RenderType.translucent());
 			ItemBlockRenderTypes.setRenderLayer(FLOWING_PETROLEUM.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(BITUMINOUS_BINDER.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_BITUMINOUS_BINDER.get(), RenderType.translucent());
 		}
 	}
 }
