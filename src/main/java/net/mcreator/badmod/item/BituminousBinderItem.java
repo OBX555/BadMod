@@ -1,15 +1,12 @@
 
 package net.mcreator.badmod.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.BucketItem;
-
-import net.mcreator.badmod.init.BadModModFluids;
+import net.minecraft.network.chat.Component;
 
 public class BituminousBinderItem extends BucketItem {
+
 	public BituminousBinderItem() {
 		super(BadModModFluids.BITUMINOUS_BINDER.get(), new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.COMMON));
 	}
+
 }

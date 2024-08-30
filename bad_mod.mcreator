@@ -458,6 +458,20 @@
       "path": "~/Recipes"
     },
     {
+      "name": "RefineryGUI1",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery_gui_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/client/gui/RefineryGUI1Screen.java",
+          "src/main/java/net/mcreator/badmod/world/inventory/RefineryGUI1Menu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
       "name": "Refinery",
       "type": "block",
       "compiles": true,
@@ -473,20 +487,6 @@
         ]
       },
       "path": "~/Blocks"
-    },
-    {
-      "name": "RefineryGUI1",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "refinery_gui_1",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/badmod/client/gui/RefineryGUI1Screen.java",
-          "src/main/java/net/mcreator/badmod/world/inventory/RefineryGUI1Menu.java"
-        ]
-      },
-      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
@@ -549,15 +549,7 @@
     "name": "~",
     "children": [
       {
-        "name": "Blocks",
-        "children": []
-      },
-      {
-        "name": "Inventory tabs",
-        "children": []
-      },
-      {
-        "name": "Recipes",
+        "name": "Items",
         "children": []
       },
       {
@@ -569,11 +561,19 @@
         "children": []
       },
       {
-        "name": "Events",
+        "name": "Recipes",
         "children": []
       },
       {
-        "name": "Items",
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Inventory tabs",
+        "children": []
+      },
+      {
+        "name": "GUI",
         "children": []
       },
       {
@@ -581,7 +581,7 @@
         "children": []
       },
       {
-        "name": "GUI",
+        "name": "Events",
         "children": []
       }
     ]
