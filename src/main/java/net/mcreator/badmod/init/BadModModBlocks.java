@@ -9,6 +9,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.badmod.block.RefineryBlock;
 import net.mcreator.badmod.block.PetroleumBlock;
 import net.mcreator.badmod.block.OilySandBlock;
 import net.mcreator.badmod.block.HotAggregateBlock;
@@ -29,6 +30,7 @@ public class BadModModBlocks {
 	public static final DeferredHolder<Block, Block> PETROLEUM = REGISTRY.register("petroleum", PetroleumBlock::new);
 	public static final DeferredHolder<Block, Block> BITUMINOUS_BINDER = REGISTRY.register("bituminous_binder", BituminousBinderBlock::new);
 	public static final DeferredHolder<Block, Block> HOT_AGGREGATE = REGISTRY.register("hot_aggregate", HotAggregateBlock::new);
+	public static final DeferredHolder<Block, Block> REFINERY = REGISTRY.register("refinery", RefineryBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

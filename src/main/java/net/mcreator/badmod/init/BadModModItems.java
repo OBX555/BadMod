@@ -41,6 +41,7 @@ public class BadModModItems {
 	public static final DeferredHolder<Item, Item> LEFTOVER_AMALGAMATION = REGISTRY.register("leftover_amalgamation", LeftoverAmalgamationItem::new);
 	public static final DeferredHolder<Item, Item> BITUMINOUS_BINDER_BUCKET = REGISTRY.register("bituminous_binder_bucket", BituminousBinderItem::new);
 	public static final DeferredHolder<Item, Item> HOT_AGGREGATE = block(BadModModBlocks.HOT_AGGREGATE);
+	public static final DeferredHolder<Item, Item> REFINERY = block(BadModModBlocks.REFINERY);
 
 	// Start of user code block custom items
 	// End of user code block custom items

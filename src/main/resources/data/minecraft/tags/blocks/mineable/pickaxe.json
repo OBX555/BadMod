@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "bad_mod:refinery",
     "bad_mod:oily_sand",
     "bad_mod:aggregate",
     "bad_mod:asphalt"

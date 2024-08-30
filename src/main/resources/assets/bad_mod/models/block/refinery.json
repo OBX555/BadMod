@@ -1,0 +1,9 @@
+{
+  "parent": "bad_mod:custom/refinery",
+  "textures": {
+    "all": "bad_mod:block/refinery",
+    "particle": "bad_mod:block/refinery",
+    "0": "bad_mod:block/"
+  },
+  "render_type": "solid"
+}

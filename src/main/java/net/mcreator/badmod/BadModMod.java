@@ -19,6 +19,7 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.badmod.init.BadModModTabs;
+import net.mcreator.badmod.init.BadModModMenus;
 import net.mcreator.badmod.init.BadModModItems;
 import net.mcreator.badmod.init.BadModModFluids;
 import net.mcreator.badmod.init.BadModModFluidTypes;
@@ -47,6 +48,8 @@ public class BadModMod {
 		BadModModItems.REGISTRY.register(modEventBus);
 
 		BadModModTabs.REGISTRY.register(modEventBus);
+
+		BadModModMenus.REGISTRY.register(modEventBus);
 
 		BadModModFluids.REGISTRY.register(modEventBus);
 		BadModModFluidTypes.REGISTRY.register(modEventBus);

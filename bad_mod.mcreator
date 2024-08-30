@@ -458,17 +458,35 @@
       "path": "~/Recipes"
     },
     {
-      "name": "AsphaltRecipepart2",
-      "type": "recipe",
+      "name": "Refinery",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "asphalt_recipepart_2",
+      "registry_name": "refinery",
       "metadata": {
         "files": [
-          "src/main/resources/data/bad_mod/recipes/asphalt_recipepart_2.json"
+          "src/main/java/net/mcreator/badmod/block/RefineryBlock.java",
+          "src/main/resources/data/bad_mod/loot_tables/blocks/refinery.json",
+          "src/main/resources/assets/bad_mod/models/block/refinery.json",
+          "src/main/resources/assets/bad_mod/models/item/refinery.json",
+          "src/main/resources/assets/bad_mod/blockstates/refinery.json"
         ]
       },
-      "path": "~/Recipes"
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RefineryGUI1",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refinery_gui_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/badmod/client/gui/RefineryGUI1Screen.java",
+          "src/main/java/net/mcreator/badmod/world/inventory/RefineryGUI1Menu.java"
+        ]
+      },
+      "path": "~/GUI"
     }
   ],
   "variable_elements": [],
@@ -484,6 +502,7 @@
       "CUSTOM:DrillMk1"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Refinery",
       "~CUSTOM:OilySand",
       "~CUSTOM:Aggregate",
       "~CUSTOM:Asphalt"
@@ -514,6 +533,7 @@
       "block.bad_mod.cruide_oil": "Crude Oil",
       "item.bad_mod.bituminous_binder_bucket": "Bituminous Binder Bucket",
       "item.bad_mod.drillcablegreen": "Green Drill Cable",
+      "block.bad_mod.refinery": "Refinery",
       "item.bad_mod.asphalt_cement_bucket": "Asphalt Cement Bucket",
       "fluid.bad_mod.bituminous_binder": "Bituminous Binder",
       "block.bad_mod.oily_sand": "Oily Sand",
@@ -558,6 +578,10 @@
       },
       {
         "name": "Config",
+        "children": []
+      },
+      {
+        "name": "GUI",
         "children": []
       }
     ]
