@@ -1,6 +1,15 @@
 
 package net.mcreator.badmod.fluid.types;
 
+import net.neoforged.neoforge.fluids.FluidType;
+import net.neoforged.neoforge.common.SoundActions;
+import net.neoforged.neoforge.client.extensions.common.IClientFluidTypeExtensions;
+
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.resources.ResourceLocation;
+
+import java.util.function.Consumer;
+
 public class BituminousBinderFluidType extends FluidType {
 	public BituminousBinderFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(0.035D).density(1200).viscosity(2000).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
